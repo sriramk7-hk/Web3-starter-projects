@@ -6,7 +6,7 @@ contract Emboss{
     constructor(){
         _mint(msg.sender, 1000000000000);
     }
-
+    
     string public name = "Emboss";
     string public symbol = "EMO";
     uint8 public decimals = 18;

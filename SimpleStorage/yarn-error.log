@@ -1,0 +1,40 @@
+Arguments: 
+  /home/420.801.K7/.nvm/versions/node/v16.17.0/bin/node /home/420.801.K7/.node/corepack/yarn/1.22.19/bin/yarn.js add solcjs
+
+PATH: 
+  /home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/420.801.K7/.nvm/versions/node/v16.17.0/bin:/home/420.801.K7/.local/bin:/home/420.801.K7/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/opt/jdk-17.0.1+12/bin:/home/420.801.K7/bin:/usr/local/java/jdk-16/bin:/home/420.801.K7/Android/Sdk/emulator:/home/420.801.K7/Android/Sdk/tools:/home/420.801.K7/Android/Sdk/tools/bin:/home/420.801.K7/Android/Sdk/platform-tools:/home/420.801.K7/Android/Sdk/emulator:/home/420.801.K7/Android/Sdk/tools:/home/420.801.K7/Android/Sdk/tools/bin:/home/420.801.K7/Android/Sdk/platform-tools:/opt/jdk-17.0.1+12/bin:/home/420.801.K7/bin:/usr/local/java/jdk-16/bin:/home/420.801.K7/Android/Sdk/emulator:/home/420.801.K7/Android/Sdk/tools:/home/420.801.K7/Android/Sdk/tools/bin:/home/420.801.K7/Android/Sdk/platform-tools:/home/420.801.K7/Android/Sdk/emulator:/home/420.801.K7/Android/Sdk/tools:/home/420.801.K7/Android/Sdk/tools/bin:/home/420.801.K7/Android/Sdk/platform-tools:/opt/jdk-17.0.1+12/bin:/home/420.801.K7/Android/Sdk/emulator:/home/420.801.K7/Android/Sdk/tools:/home/420.801.K7/Android/Sdk/tools/bin:/home/420.801.K7/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/solcjs: Not found
+      at Request.params.callback [as _callback] (/home/420.801.K7/.node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at Request.self.callback (/home/420.801.K7/.node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/420.801.K7/.node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/420.801.K7/.node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "solc": "^0.8.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
